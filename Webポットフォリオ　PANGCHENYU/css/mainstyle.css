@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+/*重置浏览器默认样式*/
+body,ul,input,p,dl,dt,dd,h1,table,tr,td,th,h2,li{margin:0;padding:0; list-style:none; outline:none; border:0;}
+/*全局控制*/
+body{color:#6C6C6C;font-size:12px; font-family:"微软雅黑";}
+/*定义公共样式*/
+a:link,a:visited{text-decoration:none; color:#6C6C6C;}
+a:hover{text-decoration:none;}
+#all{width:100%; height:2300px; background:url(../image/bj.jpg);}
+/*头部引导栏*/
+#top_bg{
+	width:100%; 
+	height:120px; 
+	background:#F7F7F7;
+}
+#top{
+	width:980px; 
+	height:100px; 
+	line-height:100px; 
+	margin:0 auto;
+}
+.left{width:310px; height:110px; float:left;}
+.right{float:right; padding-top:10px; padding-right:20px;}
+#top li{
+	float:left;
+	padding:0px 10px 0px 0px;
+}
+#top .line{color:#CCC;}
+.right li{
+	cursor:pointer; 
+	font-size:20px;
+}
+.right li span{padding:0px 9px;}
+.left li img{background:no-repeat; padding-top:10px;}
+/*下拉菜单*/
+.right .list{position:relative;}
+.right #list_cur{
+	width:110px; 
+	display:none; 
+	position:absolute; 
+	left:-1px; 
+	top:30px; 
+	background-color:#FFF; 
+	border:1px solid #EEE;
+	font-size:15px;
+}
+.right #list_cur a{
+	display:block; 
+	padding:0 10px; 
+	line-height:28px; 
+	color:#6C6C6C;
+}
+.right #list_cur a:hover{background:#F5F5F5;}
+
+/*zhanshi*/
+#zs{
+	width:980px;
+	height:1920px;
+	margin:10px auto;
+}
+.table{
+	width:980px;
+	height:750px;
+	font-size:20px;
+	font-family:"华文行楷","楷体";
+	line-height:20px;
+}
+.table .yl{
+	width:950px;
+	height:310px;
+	display:inline-block;
+	background:#FFF;
+	padding-left:50px;
+	border:1px solid #999;
+}
+.table .bt{
+	font-size:30px;
+	color:#333;
+	background:#FC6;
+}
+/*end*/
+#end{
+	width:980px;
+	height:100px;
+	margin:70px 460px;
+}
+.endtp{
+	background:url(../image/bottom-bg.png) no-repeat;
+	height:10px;
+	width:980px;
+}
+.endwz{
+	font-size:16px;
+	text-align:center;
+	background:none;
+	line-height:40px;
+}
